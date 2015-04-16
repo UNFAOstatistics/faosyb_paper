@@ -2,6 +2,10 @@
 
 A demo of using markdown with version control for writing academic papers
 
+source is here:
+
+- <https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.md>
+
 To see different formats *rendered* click the links from below:
 
 - <http://muuankarski.github.io/faosyb_paper/faosyb_paper.pdf>
