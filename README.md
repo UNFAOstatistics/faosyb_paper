@@ -13,14 +13,16 @@ To set up your software environment look at: [https://github.com/digieast/digico
 
 ### Commands
 
-**This has been tested in using pandoc 1.12.3 version in Windows 7 and Ubuntu linux 12.04**
+**This has been tested in using pandoc 1.13.2 version in Windows 7 and Ubuntu linux 12.04**
 
 Use following scripts to convert slides into desired format
 
-For converting the **theory_paper.md**
+For converting the **faosyb_paper.md**
 
-- **pdf**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.pdf --toc --number-sections`
-- **docx**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.docx --toc --number-sections`
+- **pdf**: `pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=faosyb.pdf.template --filter pandoc-citeproc --toc --number-section --toc-depth=2 faosyb_paper.md -o faosyb_paper.pdf`
+- **docx**: `pandoc --toc --number-section faosyb_paper.md -o faosyb_paper.docx`
+- **odt**: `pandoc --toc --number-section faosyb_paper.md -o faosyb_paper.odt`
+
 
 For converting the **slides.md**
 
