@@ -8,10 +8,16 @@ source is here:
 
 To see different formats *rendered* click the links from below:
 
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.pdf>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.html>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.docx>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.odt>
+## Paper
+
+- pdf: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.pdf>
+- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.html>
+- <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.docx>
+- <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.odt>
+
+## Slides
+
+- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/slides.html>
 
 ## Processing the source files
 
