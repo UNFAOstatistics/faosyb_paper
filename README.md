@@ -7,7 +7,7 @@ To see different formats *rendered* click the links from below:
 - <http://muuankarski.github.io/faosyb_paper/faosyb_paper.pdf>
 - <http://muuankarski.github.io/faosyb_paper/faosyb_paper.html>
 - <http://muuankarski.github.io/faosyb_paper/faosyb_paper.docx>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.odt>l)
+- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.odt>
 
 ## Processing the source files
 
