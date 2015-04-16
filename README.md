@@ -12,8 +12,8 @@ To see different formats *rendered* click the links from below:
 
 - pdf: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.pdf>
 - html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.html>
-- <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.docx>
-- <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.odt>
+- Word: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.docx>
+- Libreoffice: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.odt>
 
 ## Slides
 
