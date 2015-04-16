@@ -1,11 +1,13 @@
 # Introduction
 
-I created source files for three documents, for a proper academic paper, for a presentation slides and for notes.
+A demo of using markdown with version control for writing academic papers
 
-To see them *rendered* click the links from below:
+To see different formats *rendered* click the links from below:
 
-- [theory_paper.pdf](https://rawgithub.com/digieast/paperx/master/theory_paper.pdf)
-- [slides.html](https://rawgithub.com/digieast/paperx/master/slides.html)
+- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.pdf>
+- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.html>
+- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.docx>
+- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.odt>l)
 
 ## Processing the source files
 
@@ -30,9 +32,4 @@ For converting the **slides.md**
 - **reveal.js html**: `pandoc -t revealjs -s slides.md -o slides.html -V revealjs-url=http://lab.hakim.se/reveal-js -V theme=simple -V transition=fade`
 - **pdf**: `pandoc -t beamer slides.md -o slides.pdf`
 
-# Rendered outputs
 
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.pdf>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.html>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.docx>
-- <http://muuankarski.github.io/faosyb_paper/faosyb_paper.odt>
