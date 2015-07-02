@@ -2,7 +2,11 @@
 
 A demo of using markdown with version control for writing academic papers
 
-source is here:
+Rmd. source here:
+
+- <https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.Rmd>
+
+md. source is here:
 
 - <https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.md>
 
@@ -29,7 +33,11 @@ To set up your software environment look at: [https://github.com/digieast/digico
 
 Use following scripts to convert slides into desired format
 
-For converting the **faosyb_paper.md**
+1. knit the `faosyb_paper.Rmd` into `faosyb_paper.md` In R with command
+
+    `knitr::knit("faosyb_paper.Rmd")`    
+
+2. Then convert the **faosyb_paper.md** in terminal using
 
 - **pdf**: `pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=faosyb.pdf.template --filter pandoc-citeproc --toc --number-section --toc-depth=2 faosyb_paper.md -o faosyb_paper.pdf`
 - **html**: `pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -w html -s -S --template=faosyb.html.template -H faosyb.css --filter pandoc-citeproc --number-section --toc faosyb_paper.md -o faosyb_paper.html`
