@@ -29,20 +29,6 @@ abstract: |
 The FAO Statistical Yearbook series[^2] started in 2004, consolidating and replacing four previous FAO publications – the FAO Bulletin of Statistics, and the FAO Production, Trade and Fertilizer Yearbooks. In 2012, the Statistics Division launched a new Statistical Yearbook (SYB), which presented a very new look and feel. The products that are a part of this suite of publications now presents a visual synthesis of the major trends and factors shaping the global food and agricultural landscape and their interplay with broader environmental, social and economic dimensions. In doing so, they strive to serve as a one-stop-shop on the state of world food and agriculture for policy-makers, donor agencies, researchers and analysts as well as the general public.
 
 
-```r
-library(ggplot2)
-library(dplyr)
-df <- mtcars
-dat <- df %>% group_by(carb) %>% dplyr::summarise(horsepower = mean(hp, na.rm=TRUE))
-
-# generated object
-caption_text <- "Number of carburetors in top right"
-ggplot(dat, aes(x=factor(carb),y=horsepower,fill=factor(carb))) +
-  geom_bar(stat="identity") +
-  labs(title="", x="number of carburetors", y="mean horsepower")
-```
-
-![This is just on example plot](figure/plot-1.png) 
 
 
 The Global Statistical Yearbook, which is the parent publication of the suite, provides a statistical synthesis of global and aggregate trends and an introduction to the major issues facing agriculture from the perspectives of food security, rural development, poverty, natural resource and environmental sustainability.  The publication encompasses over thirty topic-based dimensions and employs over 350 indicators. Later this year, the third global publication will be launched.
@@ -62,30 +48,6 @@ The novelty of the Yearbook is not only the content, which fills a global gap of
 The idea of using free and open source programming language is two-fold: the first involves the possibilities of free software in general and second the ability to program the whole process from the raw data to finalized publication. In short term, migration from proprietary software into free software cuts the licensing costs, but may slow down the process if people are new to the software. However, in the longer run, once the users are capable of modifying the software, they can contribute also to the content of the software and not just the yearbook,  and the whole potential of free software can be utilized. Publishing the improved software as free software makes the process transparent and allows other researchers to understand and replicate the process, and to contribute to the process themselves.
 
 
-\begin{table}
-\begin{center}
-\begin{tabular}{l c c }
-\hline
-            & Model 1 & Model 2 \\
-\hline
-(Intercept) & $1.08^{***}$ & $6.53^{***}$ \\
-            & $(0.07)$     & $(0.48)$     \\
-Petal.Width & $2.23^{***}$ &              \\
-            & $(0.05)$     &              \\
-Sepal.Width &              & $-0.22$      \\
-            &              & $(0.16)$     \\
-\hline
-R$^2$       & 0.93         & 0.01         \\
-Adj. R$^2$  & 0.93         & 0.01         \\
-Num. obs.   & 150          & 150          \\
-RMSE        & 0.48         & 0.83         \\
-\hline
-\multicolumn{3}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
-\end{tabular}
-\caption{A table example: Statistical models}
-\label{table:coefficients}
-\end{center}
-\end{table}
 
 
 The second reason concerns the programmatic approach in preparing the SYB. Advantages of programmatic approach involve automation, the text based sources, communication and quality control. The high level of automation significantly reduces manual operations, which are often prone to human errors. Also, it saves significant time when the outputs have to be updated for instance due to changes in underlying raw data. Moreover, the fact that a programming code  is essentially plain text allows the use of revision/version control for easily tracking the changes, implementing new features without breaking the existing workflow and maintaining various versions of the software.  
