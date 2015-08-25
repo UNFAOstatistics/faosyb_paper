@@ -4,24 +4,24 @@ A demo of using markdown with version control for writing academic papers
 
 Rmd. source here:
 
-- <https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.Rmd>
+- <https://raw.githubusercontent.com/UNFAOstatistics/faosyb_paper/master/faosyb_paper.Rmd>
 
 md. source is here:
 
-- <https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.md>
+- <https://raw.githubusercontent.com/UNFAOstatistics/faosyb_paper/master/faosyb_paper.md>
 
 To see different formats *rendered* click the links from below:
 
 ## Paper
 
-- pdf: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.pdf>
-- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/faosyb_paper.html>
-- Word: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.docx>
-- Libreoffice: <https://github.com/muuankarski/faosyb_paper/raw/master/faosyb_paper.odt>
+- pdf: <https://github.com/UNFAOstatistics/faosyb_paper/raw/master/faosyb_paper.pdf>
+- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/UNFAOstatistics/faosyb_paper/master/faosyb_paper.html>
+- Word: <https://github.com/UNFAOstatistics/faosyb_paper/raw/master/faosyb_paper.docx>
+- Libreoffice: <https://github.com/UNFAOstatistics/faosyb_paper/raw/master/faosyb_paper.odt>
 
 ## Slides
 
-- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/muuankarski/faosyb_paper/master/slides.html>
+- html: <http://htmlpreview.github.io/?https://raw.githubusercontent.com/UNFAOstatistics/faosyb_paper/master/slides.html>
 
 ## Processing the source files
 
